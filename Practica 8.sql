@@ -1,6 +1,6 @@
 create view vw_AlumnoCompreta
 as
-select IdAlumno, Nombre, IdCarrera, FechaIngreso, AñoCurso from Alumno;
+select IdAlumno, Nombre, IdCarrera, FechaIngreso, AÅ„oCurso from Alumno;
 go
 
 create view vw_Carrera 
