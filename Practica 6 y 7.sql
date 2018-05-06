@@ -1,4 +1,4 @@
---tablas llenas
+
 select * from Alumno
 select * from Carrera
 select * from Maestro
@@ -9,7 +9,7 @@ select * from Grupo
 select * from HorarioAsignado
 select * from GrupoAlumno
 
---tablas restantes
+
 
 select GrupoAlumno.IdAlumno, HorarioAsignado.IdGrupo, HorarioAsignado.IdHorario
 from GrupoAlumno
